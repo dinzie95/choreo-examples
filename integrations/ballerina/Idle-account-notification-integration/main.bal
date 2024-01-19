@@ -15,9 +15,9 @@ const EMAIL_SUBJECT = "Reset your password";
 const EMAIL_CONTENT = "Your password has been expired.";
 
 // API related constants.
-string inactiveUserRetrivalEndpointUrl = "https://dev.api.asgardeo.io/t/" + ORG_NAME + "/api/idle-account-identification/v1/inactive-users";
-string scim2Endpoint = "https://dev.api.asgardeo.io/t/" + ORG_NAME + "/scim2/Users/";
-string tokenEndpoint = "https://dev.api.asgardeo.io/t/" + ORG_NAME + "/oauth2/token";
+string inactiveUserRetrivalEndpointUrl = "https://api.asgardeo.io/t/" + ORG_NAME + "/api/idle-account-identification/v1/inactive-users";
+string scim2Endpoint = "https://api.asgardeo.io/t/" + ORG_NAME + "/scim2/Users/";
+string tokenEndpoint = "https://api.asgardeo.io/t/" + ORG_NAME + "/oauth2/token";
 string[] requiredScopeList = ["internal_user_mgt_list", "internal_user_mgt_view"];
 
 public function main() returns error? {
